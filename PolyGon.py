@@ -7,8 +7,7 @@ class Polygon:  # Abstract base for polygons built from Point-like (x, y) tuples
    
    
     def __init__(self, vertices):
-        # self._vertices = vertices
-        # Normalize to Point objects
+   
         
         self.vertices = [v if isinstance(v, Point) else Point(*v) for v in vertices]
 
@@ -22,9 +21,7 @@ class Polygon:  # Abstract base for polygons built from Point-like (x, y) tuples
         if self.n < 2:
             return []
         
-        # side length calculation using math.hypot (hypotenuse)
-        # side = math.hypot( (x_i+1 - x_i), (y_i+1 - y_i) )
-        # n is the number of vertices
+  
         
         return [math.hypot(
             self.vertices[(i + 1) % self.n]._x - self.vertices[i]._x,
@@ -40,5 +37,3 @@ class Polygon:  # Abstract base for polygons built from Point-like (x, y) tuples
         return f"{self.__class__.__name__} with {self.n} sides"
     
 
-
-# p=Polygon((0,4))

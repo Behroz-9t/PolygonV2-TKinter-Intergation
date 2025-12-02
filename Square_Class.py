@@ -22,7 +22,3 @@ class Square(RegularPolygon):
         return f"Square(sides={self.side:.2f})"
     
     
-    
-# s=Square((0,0),4)
-# print(s.area())
-# print(s.perimeter())

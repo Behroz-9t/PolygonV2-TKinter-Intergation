@@ -11,8 +11,8 @@ class IrregularPolygon(Polygon):
         Normalization to Point objects is handled by Polygon.
         """
         
-        # print(self._vertices)
-        super().__init__(vertices)  # parent handles normalization
+      
+        super().__init__(vertices)  
 
     def area(self):
         """Compute the polygon's area using the Shoelace theorem:

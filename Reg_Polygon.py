@@ -10,8 +10,7 @@ class RegularPolygon(Polygon):
         if n < 3:
             raise ValueError("A polygon must have at least 3 sides.")
 
-        # self.n=n
-        # do not assign to self.n directly bcoz in base class n is a property
+    
         
         self._num_sides = n
         self.radius = radius
@@ -45,5 +44,4 @@ class RegularPolygon(Polygon):
         s = self.sides[0]
         n = self.n
 
-        # Area = 0.5 * n * s * (s / (2 * math.tan(math.pi / n)))
         return n * s * (s / (4 * math.tan(math.pi / n)))
