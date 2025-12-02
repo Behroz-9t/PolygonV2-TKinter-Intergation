@@ -7,6 +7,7 @@ This project is a Python application that uses Tkinter to draw various geometric
 - Draw different geometric shapes including squares, triangles, and irregular polygons.
 - Interactive GUI using Tkinter.
 - Object-oriented design.
+- Console Based input style implementation
 
 ## Getting Started
 
@@ -14,9 +15,6 @@ This project is a Python application that uses Tkinter to draw various geometric
 - Python 3.7 or higher
 - Tkinter installed with Python (usually comes with the standard library)
 - No additional packages are required to run the application as it uses Python's built-in libraries.
-
-### Running the Application
-To run the application, navigate to the project directory and run the following command:
 
 ## Project Structure
 
@@ -33,14 +31,13 @@ PolygonV2-Tkinter-Integration/
 ├── Shape_Interface.py              # For Abstract Shape interface
 ├── Point_Class.py                  # Point class
 │
-├── Turtle/                   # Test cases for the application
-│   ├── canvas.py        
-│   ├── line.py      
-│   └── pen.py    
-│      
+├── Turtle/                         
+│   ├── canvas.py                   # Canvas like a Drawing pad
+│   ├── line.py                     # line class
+│   └── pen.py                      # Pen That draws on canvas
 │
-├── README.md                # Project documentation
-└── requirements.txt         # Project dependencies
+└── README.md                       # Project documentation
+
 ```
 
 ## How It Works
