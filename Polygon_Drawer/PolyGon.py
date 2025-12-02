@@ -1,5 +1,5 @@
 import math
-from Point_Class import Point
+from .Point_Class import Point
 
 
 class Polygon:  # Abstract base for polygons built from Point-like (x, y) tuples.

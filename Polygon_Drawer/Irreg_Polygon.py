@@ -1,4 +1,4 @@
-from PolyGon import Polygon
+from .PolyGon import Polygon
 
 class IrregularPolygon(Polygon):
     """A polygon defined by arbitrary vertices (Point objects or (x, y) tuples)."""

@@ -1,4 +1,4 @@
-from Point_Class import Point
+from ..Point_Class import Point
 
 class Line:
     def __init__(self,start:Point,end:Point): #--> Here (:Point) shows the type of the start and end arguments

@@ -1,6 +1,6 @@
-from Reg_Polygon import RegularPolygon
+from .Reg_Polygon import RegularPolygon
 import math
-from Point_Class import Point
+from .Point_Class import Point
 
 
 class Square(RegularPolygon):

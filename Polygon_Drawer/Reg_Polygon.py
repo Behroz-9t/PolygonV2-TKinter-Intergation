@@ -1,6 +1,6 @@
 import math 
-from PolyGon import Polygon
-from Point_Class import Point
+from .PolyGon import Polygon
+from .Point_Class import Point
 
 
 class RegularPolygon(Polygon):

@@ -1,9 +1,9 @@
 import tkinter as tk
-from Turtle.canvas import TKpanel
-from Square_Class import Square
-from Triangle_Class import Triangle
-from Irreg_Polygon import IrregularPolygon
-from Reg_Polygon import RegularPolygon
+from .Turtle.canvas import TKpanel
+from .Square_Class import Square
+from .Triangle_Class import Triangle
+from .Irreg_Polygon import IrregularPolygon
+from .Reg_Polygon import RegularPolygon
 
 
 def draw_polygon_on_canvas(canvas:TKpanel, vertices):

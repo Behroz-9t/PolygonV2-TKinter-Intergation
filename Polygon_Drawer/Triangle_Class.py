@@ -1,5 +1,5 @@
-from Irreg_Polygon import IrregularPolygon
-from Point_Class import Point
+from .Irreg_Polygon import IrregularPolygon
+from .Point_Class import Point
 
 class Triangle(IrregularPolygon):
     """A triangle defined by 3 arbitrary vertices."""

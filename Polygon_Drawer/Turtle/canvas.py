@@ -1,7 +1,7 @@
 #LIKE PAPER
 
 import tkinter as tk
-from Point_Class import Point
+from ..Point_Class import Point
 from .line import Line
 
 class TKpanel(tk.Canvas):
